@@ -15,3 +15,4 @@ function wrapAdjective(visualFlair = '*') {
 const encouragingPromptFunction = wrapAdjective("!!!");
 console.log(encouragingPromptFunction()); // Output: "You are *special*!!!"
 console.log(encouragingPromptFunction("amazing")); // Output: "You are *amazing*!!!"
+wrapAdjective("%")("a dedicated programmer");
